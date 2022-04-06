@@ -1,0 +1,22 @@
+{
+	"id":"Pon Test Mod", 
+	"name":"Pon Test", 
+	"author":"Domzori",
+	"version":".1",
+	"description":"Testing systems and such",
+    "gameVersion": "0.95.1a-RC6",
+	"jars":[
+      "jars/PonTestProject.jar",
+	],
+	"dependencies": [
+		{
+			"id": "MagicLib",
+			"name": "MagicLib",
+		},
+		{
+			"id":"dronelib",
+			"name":"DroneLib",
+		},
+	],
+    
+}
