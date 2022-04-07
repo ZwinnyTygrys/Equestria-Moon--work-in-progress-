@@ -1,0 +1,8 @@
+id,trigger,conditions,script,text,options,notes
+equestrian_celestia_1_opening,OpenCDE,"$isPerson
+$name == Celestia",ShowPersonVisual,You hail what looks to be a small colony on the surface. Only to be greeted by an pastel equid upon your monitor.,"equestrian_celestia_1_opened:Greet the Princess
+equestrian_celestia_1_denied:Do not greet the Princess",
+equestrian_celestia_1_1,DialogOptionSelected,$option == equestrian_celestia_1_opened,,"""WHINNY WHINNY WHINNY WHINNY WHINNY NEIGH NEIGH WHINNY WHINNY WHINNY NEIGH NEIGH NEIGH WHINNY.""",equestrian_celestia_1_what:What?,
+equestrian_celestia_1_2,DialogOptionSelected,$option == equestrian_celestia_1_what,,She continues to speak like a horse.,,
+equestrian_planet_interaction,OpenInteractionDialog,$id == equestrian_alpha score:9001,EquestriaDialogManager,,,
+,,,,,,
