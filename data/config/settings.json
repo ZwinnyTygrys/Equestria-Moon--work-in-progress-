@@ -1,0 +1,8 @@
+{
+	"ruleCommandPackages": ["data.scripts.rulecmd"],
+	"graphics":{
+		"characters":{
+			"equestrian_celestia":"graphics/portraits/portrait_celestia01.png",
+		},
+	}
+}
