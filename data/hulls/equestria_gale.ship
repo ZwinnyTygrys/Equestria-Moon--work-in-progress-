@@ -1,0 +1,77 @@
+{
+  "hullName": "Gale",
+  "hullId": "equestria_gale",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/equestria_gale.png",
+  "style": "MIDLINE",
+  "height": 112,
+  "width": 52,
+  "center": [26, 56],
+  "collisionRadius": 57.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 73.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 182,
+      "angle": 0,
+      "locations": [45, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 216,
+      "angle": -65.5,
+      "locations": [15, -13]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 216,
+      "angle": 65.5,
+      "locations": [15, 13]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-53, 0.5],
+      "length": 43.5,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-15.5, -22],
+      "length": 32,
+      "width": 11,
+      "angle": -176.5,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-15.5, 22],
+      "length": 32,
+      "width": 11,
+      "angle": 176.5,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    58, -25,
+    -15.5, -30,
+    -57, -12,
+    -57, 12,
+    -15.5, 30,
+    58, 25
+  ]
+}
