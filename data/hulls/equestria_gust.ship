@@ -1,0 +1,84 @@
+{
+  "hullName": "Gust",
+  "hullId": "equestria_gust",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/equestria_gust.png",
+  "style": "MIDLINE",
+  "height": 118,
+  "width": 70,
+  "center": [35, 59],
+  "collisionRadius": 67.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 78,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 75,
+      "angle": 0,
+      "locations": [-39, 14]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 75,
+      "angle": -0,
+      "locations": [-39, -14]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 98,
+      "angle": 49,
+      "locations": [-24.5, 28.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 98,
+      "angle": -49,
+      "locations": [-24.5, -28.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-55, 0.5],
+      "length": 70.5,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 24,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-52, -28],
+      "length": 40,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-52, 28],
+      "length": 40,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    61, -19.5,
+    -60, -38,
+    -60, 38,
+    61, 19.5
+  ]
+}
