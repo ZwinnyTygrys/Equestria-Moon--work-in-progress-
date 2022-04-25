@@ -2,3 +2,4 @@ name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating
 Ugly,equestria_ugly,Combat Shuttle,Midline,maneuveringjets,4,450,200,2000,1000,500,40,,200,200,200,45,85,100,OMNI,,200,0.5,0.8,,,2,30,30,15,1,15,10,4000,5,20,180,0.25,2,2,,,,,,,,base_bp,,0.75,2,2,,4100
 Gale,equestria_gale,Frigate,Midline,phaseteleporter,3,2000,350,150,1200,100,40,,140,100,100,60,120,200,OMNI,,120,0.2,1,,,20,30,40,30,1,,10,28000,8,15,200,0.25,4,4,,,,,,,,base_bp,,0.8,2,2,,4101
 Gust,equestria_gust,Frigate,Midline,maneuveringjets,6,3000,400,2500,1000,100,50,,100,70,70,55,100,300,OMNI,,120,0.2,1,,,30,35,40,30,1,,10,30000,8,20,200,0.25,4,4,,,,,,,,base_bp,,0.8,2,2,,4102
+Hail,equestria_hail,PD Frigate,Midline,flarelauncher,4,1500,200,2000,1000,90,58,,120,70,70,70,70,200,OMNI,,90,0.4,0.6,,,30,35,100,50,1,,10,5000,10,20,240,0.25,7,7,,,,,,,,base_bp,,0.6,2,2,,4103
