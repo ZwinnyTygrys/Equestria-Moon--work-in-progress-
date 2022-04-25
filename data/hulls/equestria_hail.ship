@@ -1,0 +1,99 @@
+{
+  "hullName": "Hail",
+  "hullId": "equestria_hail",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Hail.png",
+  "style": "LOW_TECH",
+  "height": 115,
+  "width": 70,
+  "center": [35, 57.5],
+  "collisionRadius": 70,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 78.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "manapool",
+    "pointdefenseai"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-36.5, 20.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [-36.5, -20.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [1.5, 15]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [1.5, -15]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [29.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-56, -24],
+      "length": 44.5,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-56, 24],
+      "length": 44.5,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-54.5, -0],
+      "length": 75,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    59.5, -13.5,
+    19, -37,
+    -60, -37,
+    -60, 37,
+    19, 37,
+    59.5, 13.5
+  ]
+}

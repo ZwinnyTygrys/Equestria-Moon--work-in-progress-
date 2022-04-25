@@ -15,11 +15,12 @@ public class EquestriaDialogManager extends BaseCommandPlugin {
 
     public boolean execute(String ruleId, InteractionDialogAPI dialog, List<Misc.Token> params, Map<String, MemoryAPI> memoryMap){
         String interactionTargetID = dialog.getInteractionTarget().getId();
-        Global.getLogger(this.getClass()).info("Fired Event " + ruleId.toLowerCase(Locale.ROOT) + " " + interactionTargetID);
+        Global.getLogger(this.getClass()).info("Fired Event " + ruleId.toLowerCase(Locale.ROOT) + " " + dialog.getInteractionTarget().getName());
 
         // When the player first interacts with Equestria
         if (interactionTargetID.equals("equestrian_alpha")){
-            new EquestrianDialogFirstEncounter().init(dialog);
+            dialog.setPlugin(new EquestrianDialogFirstEncounter());
+            dialog.getPlugin().init(dialog);
         }
         return true;
     }
